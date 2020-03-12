@@ -1,13 +1,13 @@
 # Nested Data Structures: Reducing Data
 
 For the final lab on traversing `Array` of `Array`s, we're going to apply the
-double `while` loop to find a single value
+double `while` loop to find a single value.
 
-## Traverse Array of Arrays to Produce a Single Value
+## Traverse `Array` of `Array`s to Produce a Single Value
 
 Another variant on traversing nested Arrays is traversing the matrix and
 accumulating all the values. Let's imagine that someone created a grid
-representing a guessing game. In each cell of the grid the games makers have put
+representing a guessing game. In each cell of the grid, the games makers have put
 some amount of cash. Let's sum up all the possible values to determine how much
 money is in the grid.
 
@@ -31,7 +31,9 @@ end
 total #=> 297
 ```
 
-This pattern is known as reduction because you're going to reduce a nested data structure to a single value. As you learn Ruby's Enumerable methods, remembering this name will help a lot!
+This pattern is known as reduction because you're going to reduce a nested data
+structure to a single value. As you learn Ruby's Enumerable methods, remembering
+this name will help a lot!
 
 ## Instructions
 
@@ -71,7 +73,7 @@ in this situation, we need something more customizable. We were able to take a
 set of 'dirty' data and reduce it down to a single value, something that `.join`
 would not be able to accomplish on its own.
 
-You may have noticed that when we'rediscussing nested data structures - a lot of
+You may have noticed that when we're discussing nested data structures - a lot of
 the concepts we are introducing are things we've seen in regular arrays. At the
 core of our implementations, we're performing operations that we're familiar
 with - using conditional statements, combining values, pushing data into arrays,
